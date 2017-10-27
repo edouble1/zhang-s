@@ -1,2 +1,3 @@
-加密命令：./a.out -e xxxx(密码） 文件名
-解密命令：./a.out -d xxxx(密码） 文件名
+ 使用说明
+加密命令：./a.out -e xxxx(密码) xxxxx.xxx(文件名)
+解密命令：./a.out -d xxxx(密码) xxxxx.xxx(文件名)
