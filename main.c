@@ -39,12 +39,12 @@ int main( int argc, char *argv[] )  //命令行输入
         //解密
         while((ch=getc(fp))!=EOF)
         {
-            ch=ch^key;//
-            printf("%c",ch);//
+            ch=ch^key;//再进行一次异或
+            printf("%c",ch);//将结果输出到屏幕
         }
         fclose(fp); //关闭文件
     }
-    else printf("Your command is wrong");//
+    else printf("Your command is wrong");//命令错误
     return 0;
 }
 
